@@ -942,7 +942,6 @@ body {
 
 .footer-columns {
   display: flex;
-  gap: 60px;
   margin-bottom: 94px;
 }
 
@@ -966,14 +965,11 @@ body {
   color: #161c2d;
 }
 
-.footer-col:last-child {
-  margin-left: auto;
-}
-
 .footer-badges {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 16px;
+  margin-top: 40px;
 }
 
 .footer-badges img {
@@ -993,6 +989,25 @@ body {
   font-size: 15px;
   line-height: 26px;
   letter-spacing: -0.1px;
+}
+
+.footer-col:nth-child(1) {
+  width: 144px;
+}
+
+.footer-col:nth-child(2) {
+  width: 125px;
+  margin-left: 46px;
+}
+
+.footer-col:nth-child(3) {
+  width: 161px;
+  margin-left: 94px;
+}
+
+.footer-col:nth-child(4) {
+  width: 189px;
+  margin-left: 190px;
 }
 
 .social {
