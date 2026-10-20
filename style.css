@@ -846,11 +846,13 @@ body {
   content: "";
   position: absolute;
   right: -45px;
-  bottom: 21px;
+  bottom: 33px;
   width: 147px;
   height: 150px;
   background-image: radial-gradient(circle, #68d585 3.5px, transparent 4px);
-  background-size: 24px 21px;
+  background-size: 23px 20px;
+  background-position: -8px 2px;
+  clip-path: polygon(42px 0, 100% 0, 100% 100%, 0 100%, 0 50px);
 }
 
 .pricing-wave {
